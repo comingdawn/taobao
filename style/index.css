@@ -1,0 +1,233 @@
+.inner-container{
+    width:80%;
+    height:auto;
+    margin:0 auto;
+}
+.header{
+    width: 90%;
+    /*position: absolute;*/
+    /*float: left;*/
+    left: 0;
+    top: 0;
+    height: 35px;
+    background-color: #f5f5f5;
+    padding: 0 5%;
+    display: flex;
+    justify-content:space-between;
+}
+.header-left ul{
+    display: flex;
+}
+.header-left ul li{
+    line-height: 35px;
+    padding: 0 6px;
+}
+.header-left ul li:hover{
+    cursor: pointer;
+}
+.header-left ul li:nth-of-type(1):hover{
+    background-color: #ffffff;
+}
+.header-left ul li:nth-of-type(2) a{
+    color: #ff5000;
+}
+.header-left ul li a:hover{
+    color: #ff5000;
+}
+.arrow-down{
+    font-size: 12px;
+    font-weight: 900;
+    padding: 0 4px;
+    vertical-align: top;
+}
+.header-right {
+    display: flex;
+}
+.header-right >div ul{
+    display: flex;
+}
+.header-right ul li{
+    line-height: 35px;
+    padding: 0 6px;
+}
+.header-right ul li a:hover{
+    color: #ff5000;
+}
+.header-right-left ul li:nth-of-type(1):hover{
+    background-color: #ffffff;
+}
+.header-right-left ul li:nth-of-type(2):hover{
+    background-color: #ffffff;
+}
+.header-right-left ul li:nth-of-type(3):hover{
+    background-color: #ffffff;
+}
+.header-right-right ul li:hover {
+    background-color: #ffffff;
+}
+ .header-right-right{
+     line-height: 35px;
+}
+.site-pipe{
+    padding: 0 10px;
+    color:#999999;
+    line-height: 35px;
+}
+.header-right-left{
+    line-height: 35px;
+}
+.shopping-cart{
+    color: #ff5000;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.header-right-left ul li:nth-of-type(3) a span{
+    vertical-align: middle;
+}
+.collection{
+    font-size: 12px;
+}
+.website-nav{
+    font-size: 12px;
+    color: #ff5000;
+}
+/*.header-right-left ul li:nth-of-type(3):hover a,
+.header-right-left ul li:nth-of-type(3):hover .collection{
+    color: #ff5000;
+}*/
+.head{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 40px 20px 0 20px;
+    /*display: flex;*/
+}
+.head .logo a{
+    width: 143px;
+    height: 59px;
+    float: left;
+    background-image: url("../images/logo/taobao2.png");
+}
+.head .search{
+    width: 54%;
+    height: 58px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.head .search-head ul{
+    margin-left: 15px;
+}
+.head .search-head ul li{
+    line-height: 1.5;
+    float: left;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 4px;;
+    text-align: center;
+}
+.head .search-head-style{
+    color: #F40;
+}
+.head .search-head-styleChange{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #ff9000 0,#ff5000 100%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.head .search-block{
+    width: 100%;
+    height: 36px;
+    float: left;
+    border: 2px solid #ff5000;
+    border-radius: 20px;
+}
+.head .search-input{
+    width: 555px;
+    height: 24px;
+    line-height: 24px;
+    padding: 6px 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: left;
+}
+.head .search-button{
+    float: right;
+    width: 74px;
+    height: 36px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #ff9000 0,#ff5000 100%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+.goods-recommend{
+    height: auto;
+    align-items: center;
+}
+.goods-recommend ul{
+    width: 54%;
+    margin: 10px auto;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.goods-recommend ul li{
+    margin-right: 10px;
+}
+.goods-recommend ul li a:hover{
+    color: #ff5000;
+}
+.navbar{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.navbar .nav{
+    width: calc(100% - 190px);
+    background-image: linear-gradient(to right, #ff9000 0,#ff5000 100%) ;
+}
+.navbar-thematicMarket{
+    width: 190px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #ff5000;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav div ul li {
+    float: left;
+}
+.nav div>ul>li>a{
+    width: 61px;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    margin: 0 8px;
+}
+.nav-left{
+    font-size: 16px;
+}
+.nav-middle{
+    font-size: 14px;
+}
+.nav-right{
+    font-size: 14px;
+}
+.nav-gap{
+    width: 10px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0 8px;
+}
